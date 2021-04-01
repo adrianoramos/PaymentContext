@@ -9,6 +9,6 @@ namespace PaymentContext.Domain.ValueObjects
             Address = address;
         }
 
-        public string Address { get; set; }
+        public string Address { get; private set; }
     }
 }
